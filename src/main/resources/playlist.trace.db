@@ -1,0 +1,6 @@
+2023-03-11 02:47:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists playlist( songId int Primary Key [*]AUTO_INCREMENTED, songName varchar(255), lyricist varchar(255), singer varchar(255), musicDirector varchar(255) )"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+create table if not exists playlist( songId int Primary Key AUTO_INCREMENTED, songName varchar(255), lyricist varchar(255), singer varchar(255), musicDirector varchar(255) ) [42001-214]
+2023-03-11 03:32:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists playlist( songId int Primary Key [*]AUTO_INCREMENTED, songName varchar(255), lyricist varchar(255), singer varchar(255), musicDirector varchar(255) )"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+create table if not exists playlist( songId int Primary Key AUTO_INCREMENTED, songName varchar(255), lyricist varchar(255), singer varchar(255), musicDirector varchar(255) ) [42001-214]
